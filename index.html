@@ -91,7 +91,8 @@
 				<!-- Description Text -->
 				<hr class="hr1">
 				<div class="vcard-profile-description-text">
-					<p>Software Engineer and Open Source Enthusiasts from banglore .</p>
+					<p>I am currently working as a Software Engineer at 6d Technologies .I have got  3+ years of experience in IT industry and most of it is in Telecom domain.
+</p>
 				</div>	
 				<!--/ Description Text -->	
 				<!-- Description feature -->
@@ -572,7 +573,7 @@ Rules are applied to segment the customers under the criteria defined by the Rul
 		            <!-- /Form Field -->
 		            <!-- Form Field -->
 		            <div class="form-group">
-		            	<input type="submit" class="btn btn-default form-send" value="Send!">
+		            	<input type="submit" class="btn btn-default form-send" value="Send!"/>
 		            </div>  
 		            <!-- /Form Field -->
 		        </form>
@@ -636,7 +637,14 @@ Rules are applied to segment the customers under the criteria defined by the Rul
 <script src="vendor/cross-browser.js"></script>
 <!-- Main Scripts -->
 <script src="js/main.js"></script>
-
+<script type="text/javascript">
+  function send() {
+    var link = 'mailto:tosubins@gmail.com.io?subject=Message from  '
+             +document.getElementById('email').value
+             +'&body='+document.getElementById('message').value;
+    window.location.href = link;
+}
+</script
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
