@@ -2,7 +2,7 @@
 [Main Theme Styles]
 
 Project:  Cards - Personal vCard, Resume/CV & Portfolio
-Author: Diego Pereira @ DotRex
+
 Version:  1.0
 Last change:  25/09/15 
 Primary use:  Vcard / Personal / CV / Resume / Portfolio
@@ -659,7 +659,7 @@ iframe {
   padding: 10px;
   background: url('../img/bg-btn.png') no-repeat center center #08aeac;
 }
-.vcard-profile-description-ft-item p {
+.vcard-profile-description-ft-item i {
   margin-bottom: 0;
   color: #ffffff;
   font-size: 12px;
@@ -726,7 +726,7 @@ iframe {
 .job {
   line-height: 15px;
   font-style: italic;
-  color: #555;
+  color: #24b0ae;
   font-size: 10px;
   margin-top: 5px;
   border-bottom: 1px solid #ccc;
