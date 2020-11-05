@@ -592,11 +592,11 @@ iframe {
   overflow-y: auto;
 }
 .vcard-profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   overflow: hidden;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
 }
 .vcard-profile-pic img {
