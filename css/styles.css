@@ -731,6 +731,7 @@ iframe {
   margin-top: 5px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
+  font-weight: bold;
 }
 .graduation-description p {
   font-size: 12px;
